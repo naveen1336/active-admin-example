@@ -1,6 +1,7 @@
 class FinderController < ApplicationController
 def index
-@cutomers = Customer.all
+@customers = Customer.all
 end
+
 
 end
